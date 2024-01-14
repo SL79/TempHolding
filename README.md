@@ -15,12 +15,12 @@ The project uses [GitHub flow](https://docs.github.com/en/get-started/quickstart
  - The main branch is always the current production version,
  - ```hotfixes``` and ```tests``` are treated the same as ```features```
 
-| Branch        | Protected | Base Branch    | Description                                                                  |
-|:--------------|:----------|:---------------|:-----------------------------------------------------------------------------|
-| ```main```    | Yes       | Not Applicable | Production version. A pull request is required to merge code into the main   |
-| ```feature``` | No        | main           | Used for feature development and testing                                     |
-| ```hotfix```  | No        | main           | Maintenance or hotfix branches are used to quickly patch production releases |
-| ```test```    | No        | main           | Used for testing outside of any specific project issue                       |
+| Branch        | Protected | Base Branch    | Description                                                                    |
+|:--------------|:----------|:---------------|:-------------------------------------------------------------------------------|
+| ```main```    | Yes       | Not Applicable | Production version.<br> A pull request is required to merge code into the main |
+| ```feature``` | No        | main           | Used for feature development and testing                                       |
+| ```hotfix```  | No        | main           | Maintenance or hotfix branches are used to quickly patch production releases   |
+| ```test```    | No        | main           | Used for testing outside of any specific project issue                         |
 
 ## Naming Conventions
 
