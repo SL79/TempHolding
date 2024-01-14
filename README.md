@@ -19,10 +19,23 @@ Changes made to repository files myst be put into the project issues log first. 
 https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/rest-is-up-to-the-task/
 https://community.esri.com/t5/arcgis-javascript-maps-sdk-questions/not-able-to-access-feature-layers/td-p/1227023
 
+## Commit Message Format
 
-| Type     | Explanation                                                                                                                                                                              |
-|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| feat     | introduces a new feature to the codebase                                                                                                                                                 |
-| fix      | patches a bug in your codebase                                                                                                                                                           |
-| refactor | A code change that neither fixes a bug nor adds a feature (i.e. changing code for performance improvement or convenience purposes like readability)                                      |
-| chore    | Style changes (changes that do not affect the meaning of the code: white-space, formatting, missing semicolons, etc), creating or updating documentation, adding or updating tests etc.  |
+Each commit message consists of a header, a body and a footer 
+
+Header
+Headers are mandatory and must conform to the Commit Message Header format
+
+
+Commit Message Header
+```
+<type>[optional scope]: <short description>
+  │       │             │
+  │       │             └─⫸ Short summary of the changes in present tense. Not capitalized. No period at the end.
+  │       │
+  │       └─⫸ Noun describing a section of the codebase surrounded by parenthesis, e.g., fix(parser):
+  │
+  └─⫸ Commit Type: feat|fix|refactor|chore
+```
+
+
