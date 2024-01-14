@@ -31,7 +31,7 @@ Commit Message Header
 ```
 <type>[optional scope]: <short description>
   │       │             │
-  │       │             └─⫸ Short summary of the changes in present tense. Not capitalized. No period at the end.
+  │       │             └─⫸ Short summary in present tense. Not capitalized. No period at the end.
   │       │
   │       └─⫸ Noun describing a section of the codebase surrounded by parenthesis, e.g., fix(parser):
   │
