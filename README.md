@@ -22,6 +22,34 @@ The project uses [GitHub flow](https://docs.github.com/en/get-started/quickstart
 | ```hotfix```  | No        | main           | Maintenance or hotfix branches are used to quickly patch production releases   |
 | ```test```    | No        | main           | Used for testing outside of any specific project issue                         |
 
+
+Certainly! GitHub Flow is a lightweight, branch-based workflow that many development teams use for managing and deploying code. Here's a summary of the GitHub Flow branching strategy:
+
+ - Create a Branch:
+Start by creating a branch for a new feature or bug fix. This branch is usually based on the main or master branch.
+ - Add Commits:
+Make changes and commit them to your branch. Each commit represents a set of changes related to the feature or bug fix.
+ - Open a Pull Request:
+Once you're done with the changes, open a pull request (PR). A pull request is a request to merge your changes into the main or master branch.
+ - Discuss and Review:
+Team members can review your code, leave comments, and discuss the changes within the pull request. This facilitates collaboration and ensures code quality.
+ - Make Changes:
+If there are suggested changes or feedback, make the necessary adjustments in your branch and push the changes. The pull request will be automatically updated.
+ - Merge Pull Request:
+Once the changes are approved, the pull request can be merged into the main or master branch. This integrates your changes with the rest of the codebase.
+ - Deploy:
+After the merge, the code is ready to be deployed. The GitHub Flow encourages frequent and small releases, making it easier to manage and identify potential issues.
+ - Cleanup:
+After the code is merged and deployed, you can delete the branch. This keeps the repository clean and makes it easier to track active branches.
+
+Key points of GitHub Flow include its simplicity, emphasis on small and frequent releases, and collaboration through pull requests. It's particularly well-suited for projects with continuous delivery and a need for quick iterations.
+
+
+
+
+
+
+
 ## Naming Conventions
 
 ## Versioning
