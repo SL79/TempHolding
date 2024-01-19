@@ -9,8 +9,6 @@ An issues log track bugs, improvements, feature requests and planned updates.
 
 Changes made to repository files myst be put into the project issues log first. Issue Log ID values are used in the Branch Name to allow reference back to a more detailed explanation of the requirement for making the commit. 
 
-Unlike GitFlow, this model doesn’t have release branches. You start off with the main branch then developers create branches, feature branches that stem directly from the master, to isolate their work which are then merged back into main. The feature branch is then deleted.
-
 
 
 ## Branching Strategy
