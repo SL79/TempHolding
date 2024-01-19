@@ -14,15 +14,6 @@ Changes made to repository files myst be put into the project issues log first. 
 ## Branching Strategy
 The project maintains a single production version and focuses on small iterative updates deployed directly to the main branch. It uses the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) branching strategy.
 
-
-
-
-
-
-
-
-
-
  - The main branch is always the current production version,
  - ```hotfixes``` and ```tests``` are treated the same as ```features```
 
