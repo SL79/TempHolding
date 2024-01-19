@@ -14,7 +14,8 @@ Unlike GitFlow, this model doesn’t have release branches. You start off with t
 
 
 ## Branching Strategy
-The project maintains a single production version and focuses on small interitive updates deployed direclty to the main branch. A [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) branching strategy is used for this prohect becauze it is lightweight for its simplicity and minimal branch managment. 
+The project maintains a single production version and focuses on small iterative updates deployed directly to the main branch. It uses the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) branching strategy.
+
 
 
 
