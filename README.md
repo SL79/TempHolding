@@ -2,14 +2,14 @@
 
 ## TL; DR
 
-Branches are tied to a specific issue
-
-Commits should be logical, atomic units of change that only encompass one task or one fix whose purpose can be clearly described in the commit message. 
+ - Branches are tied to a specific issue
+ - Commits should be logical, atomic units of change that only encompass one task or one fix whose purpose can be clearly described in the commit message.
+ - All development work is to be 
 
 ## Issues Log
-An issues log track bugs, improvements, feature requests and planned updates. 
+Issues are used to track ideas, tasks, planned updates or bugs for project work. 
 
-Changes made to repository files must be put into the project issues log first. Issue Log ID values are used in the Branch Name to allow reference back to a more detailed explanation of the requirement for making the commit. 
+Required changes must be raised as a project issue first. Issue ID numbers are used in branch names to allow reference back to a more detailed explanation of the requirement.
 
 ## Branching Strategy
 
