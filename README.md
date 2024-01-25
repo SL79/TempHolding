@@ -37,7 +37,7 @@ git branch <category>/<reference>/<short description-in-kebab-case>
                 │          │              │
                 │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
                 │          │ 
-                │          └─⫸ Issue number prefixed with a hash (#), else no-ref. Lowercase. Hyphens, no spaces.
+                │          └─⫸ Issue number prefixed with a hash (#), else no-ref.
                 │
                 └─⫸ Branch Type: feature|hotfix|test.
 ```
