@@ -15,7 +15,7 @@ Changes made to repository files must be put into the project issues log first. 
 
 The project leverages [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) for streamlined code management and effective version control. The main branch serves as the production version, with all development work taking place in a single branch directly off the main. 
 
-The project only supports two active branches: a main and a single development branch, with the development branch tied to a specific project issue.
+The project only supports two active branches: a main and a single development branch. The development branch is related to a specific project issue (excluding required maintenance work).
 
 ### Branch types
 
