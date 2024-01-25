@@ -15,8 +15,10 @@ Changes made to repository files must be put into the project issues log first. 
 The project maintains a single production version and focuses on small iterative updates deployed directly to the main branch. It uses the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) branching strategy where:
 
  - The main branch is always the current production version,
- - All changes are made through feature branches (pull-request + merge)
- - ```hotfixes``` and ```tests``` are treated the same as ```features```
+ - All changes are made through feature branches (pull-request + merge),
+ - ```hotfixes``` and ```tests``` branches are treated the same as a ```features``` branch
+
+### Branch types
 
 | Branch        | Protected | Base Branch    | Description                                                                    |
 |:--------------|:----------|:---------------|:-------------------------------------------------------------------------------|
@@ -31,12 +33,14 @@ The project maintains a single production version and focuses on small iterative
 
 
 ```
-git branch <category/reference/description-in-kebab-case>
-                │         │          │
+git branch <category>/<reference>/<short description-in-kebab-case>
+                │          │              │
+                │          │              │
+                │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
+                │          │ 
+                │          └─⫸ Issue number, else no-ref. Lowercase. Hyphens, no spaces.
                 │
-                │
-                │
-                └─⫸ Branch Type: feature|hotfix|test
+                └─⫸ Branch Type: feature|hotfix|test.
 
 ```
 
@@ -81,7 +85,7 @@ Commit Message Header
 ```
 <type>[optional scope]: <short description>
   │       │             │
-  │       │             └─⫸ Short summary in present tense. Not capitalized. No period at the end.
+  │       │             └─⫸ Short summary in present tense. Lowercase. No period at the end.
   │       │
   │       └─⫸ Noun describing a section of the codebase surrounded by parenthesis, e.g., fix(parser):
   │
