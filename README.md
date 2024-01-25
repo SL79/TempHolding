@@ -2,9 +2,9 @@
 
 ## TL; DR
 
- - Branches are tied to a specific issue
- - Commits should be logical, atomic units of change that only encompass one task or one fix whose purpose can be clearly described in the commit message.
- - All development work is to be 
+ - All development work is to be raised as an issue first
+ - Branches are tied to a specific issue (general maintenance tasks excluded)
+ - Commits should be logical, atomic units of change that only encompass one task or fix whose purpose can be clearly described in the commit message.
 
 ## Issues Log
 Issues are used to track ideas, tasks, planned updates or bugs for project work. 
@@ -38,7 +38,7 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
                 │          │              │
                 │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
                 │          │ 
-                │          └─⫸ no-ref to replace issue-<issue id> if the the branch type is maintenance. 
+                │          └─⫸ no-ref to replace issue-<issue id> if the branch type is maintenance. 
                 │
                 └─⫸ Branch Type: feature|hotfix|test|maintenance.
 ```
