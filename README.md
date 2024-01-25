@@ -26,6 +26,21 @@ The project maintains a single production version and focuses on small iterative
 | ```test```    | No        | main           | Used for testing outside of any specific project issue                         |
 
 
+### Branch Naming Convention
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 https://gist.github.com/jbenet/ee6c9ac48068889b0912 (# commit your (incremental, atomic) changes)
 
