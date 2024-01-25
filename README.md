@@ -2,6 +2,8 @@
 
 ## TL; DR
 
+Branches 
+
 Commits should be logical, atomic units of change that only encompass one task or one fix whose purpose can be clearly described in the commit message. 
 
 ## Issues Log
@@ -40,33 +42,8 @@ git branch <category>/<reference>/<short description-in-kebab-case>
 ```
 
 
+## Commits
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://gist.github.com/jbenet/ee6c9ac48068889b0912 (# commit your (incremental, atomic) changes)
-
-
-
-## Naming Conventions
-
-## Versioning
-
-
-https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/rest-is-up-to-the-task/
-https://community.esri.com/t5/arcgis-javascript-maps-sdk-questions/not-able-to-access-feature-layers/td-p/1227023
 
 ## Commit Message Format
 
@@ -87,5 +64,30 @@ Commit Message Header
   │
   └─⫸ Commit Type: feat|fix|refactor|chore
 ```
+
+
+
+
+## Pull Requests
+
+
+
+
+
+
+
+
+https://gist.github.com/jbenet/ee6c9ac48068889b0912 (# commit your (incremental, atomic) changes)
+
+
+
+
+
+## Versioning
+
+
+https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/rest-is-up-to-the-task/
+https://community.esri.com/t5/arcgis-javascript-maps-sdk-questions/not-able-to-access-feature-layers/td-p/1227023
+
 
 
