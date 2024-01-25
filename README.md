@@ -27,7 +27,7 @@ The following branch types are used for this project.
 | ```feature```     | No        | main           | Used for feature development and testing                                       |
 | ```hotfix```      | No        | main           | Used to quickly patch production releases                                      |
 | ```test```        | No        | main           | Used for testing a specific project issue                                      |
-| ```maintenance``` | No        | main           | Used for undertaking maintenance tasks outside any specific project issue=     |
+| ```maintenance``` | No        | main           | Used for undertaking maintenance tasks outside any specific project issue      |
 
 
 ### Branch Naming Convention
