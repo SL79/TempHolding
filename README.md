@@ -9,8 +9,6 @@ An issues log track bugs, improvements, feature requests and planned updates.
 
 Changes made to repository files must be put into the project issues log first. Issue Log ID values are used in the Branch Name to allow reference back to a more detailed explanation of the requirement for making the commit. 
 
-
-
 ## Branching Strategy
 The project maintains a single production version and focuses on small iterative updates deployed directly to the main branch. It uses the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) branching strategy where:
 
@@ -29,11 +27,9 @@ The project maintains a single production version and focuses on small iterative
 
 
 ### Branch Naming Convention
-
-
-
 ```
 git branch <category>/<reference>/<short description-in-kebab-case>
+
                 │          │              │
                 │          │              │
                 │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
@@ -41,7 +37,6 @@ git branch <category>/<reference>/<short description-in-kebab-case>
                 │          └─⫸ Issue number, else no-ref. Lowercase. Hyphens, no spaces.
                 │
                 └─⫸ Branch Type: feature|hotfix|test.
-
 ```
 
 
@@ -84,10 +79,11 @@ Headers are mandatory and must conform to the Commit Message Header format
 Commit Message Header
 ```
 <type>[optional scope]: <short description>
-  │       │             │
-  │       │             └─⫸ Short summary in present tense. Lowercase. No period at the end.
-  │       │
-  │       └─⫸ Noun describing a section of the codebase surrounded by parenthesis, e.g., fix(parser):
+
+  │         │                   │
+  │         │                   └─⫸ Short summary in present tense. Lowercase. No period at the end.
+  │         │
+  │         └─⫸ Noun describing a section of the codebase surrounded by parenthesis, e.g., fix(parser):
   │
   └─⫸ Commit Type: feat|fix|refactor|chore
 ```
