@@ -13,7 +13,10 @@ An issues log track bugs, improvements, feature requests and planned updates.
 Changes made to repository files must be put into the project issues log first. Issue Log ID values are used in the Branch Name to allow reference back to a more detailed explanation of the requirement for making the commit. 
 
 ## Branching Strategy
-The project maintains a single production version and focuses on small iterative updates deployed directly to the main branch. It uses the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) branching strategy where:
+
+The project leverages [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) for streamlined code management and effective version control. The main branch serves as the production version, with all development work taking place in a single branch directly off the main. 
+
+The project only supports two active branches: a main and a single development branch, with the development branch tied to a specific project issue. 
 
  - The main branch is always the current production version,
  - All changes are made through feature branches (pull-request + merge),
@@ -31,13 +34,13 @@ The project maintains a single production version and focuses on small iterative
 
 ### Branch Naming Convention
 ```
-git branch <category>/<reference>/<short description-in-kebab-case>
+git branch <category>/issue-<issue id>/<short description-in-kebab-case>
 
                 │          │              │
                 │          │              │
                 │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
                 │          │ 
-                │          └─⫸ Issue number prefixed with a hash (#), else no-ref.
+                │          └─⫸ no-ref to replace issue-<issue id> if the the branch isn't tied to issue. 
                 │
                 └─⫸ Branch Type: feature|hotfix|test.
 ```
