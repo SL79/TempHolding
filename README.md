@@ -4,7 +4,6 @@
 
 Branches are tied to a specific issue
 
-
 Commits should be logical, atomic units of change that only encompass one task or one fix whose purpose can be clearly described in the commit message. 
 
 ## Issues Log
@@ -16,20 +15,19 @@ Changes made to repository files must be put into the project issues log first. 
 
 The project leverages [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) for streamlined code management and effective version control. The main branch serves as the production version, with all development work taking place in a single branch directly off the main. 
 
-The project only supports two active branches: a main and a single development branch, with the development branch tied to a specific project issue. 
-
- - The main branch is always the current production version,
- - All changes are made through feature branches (pull-request + merge),
- - ```hotfixes``` and ```tests``` branches are treated the same as a ```features``` branch
+The project only supports two active branches: a main and a single development branch, with the development branch tied to a specific project issue.
 
 ### Branch types
 
-| Branch        | Protected | Base Branch    | Description                                                                    |
-|:--------------|:----------|:---------------|:-------------------------------------------------------------------------------|
-| ```main```    | Yes       | Not Applicable | Production version.<br> A pull request is required to merge code into the main |
-| ```feature``` | No        | main           | Used for feature development and testing                                       |
-| ```hotfix```  | No        | main           | Maintenance or hotfix branches are used to quickly patch production releases   |
-| ```test```    | No        | main           | Used for testing outside of any specific project issue                         |
+The following branch types are used for this project.
+
+| Branch            | Protected | Base Branch    | Description                                                                    |
+|:------------------|:----------|:---------------|:-------------------------------------------------------------------------------|
+| ```main```        | Yes       | Not Applicable | Production version.<br> A pull request is required to merge code into the main |
+| ```feature```     | No        | main           | Used for feature development and testing                                       |
+| ```hotfix```      | No        | main           | Used to quickly patch production releases                                      |
+| ```test```        | No        | main           | Used for testing a specific project issue                                      |
+| ```maintenance``` | No        | main           | Used for undertaking maintenance tasks outside any specific project issue=     |
 
 
 ### Branch Naming Convention
@@ -40,7 +38,7 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
                 │          │              │
                 │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
                 │          │ 
-                │          └─⫸ no-ref to replace issue-<issue id> if the the branch isn't tied to issue. 
+                │          └─⫸ no-ref to replace issue-<issue id> if the the branch type is maintenance. 
                 │
                 └─⫸ Branch Type: feature|hotfix|test.
 ```
