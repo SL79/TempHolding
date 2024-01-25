@@ -2,7 +2,8 @@
 
 ## TL; DR
 
-Branches 
+Branches are tied to a specific issue
+
 
 Commits should be logical, atomic units of change that only encompass one task or one fix whose purpose can be clearly described in the commit message. 
 
@@ -36,11 +37,10 @@ git branch <category>/<reference>/<short description-in-kebab-case>
                 │          │              │
                 │          │              └─⫸ Short summary. Lowercase. Hyphens, no spaces.
                 │          │ 
-                │          └─⫸ Issue number, else no-ref. Lowercase. Hyphens, no spaces.
+                │          └─⫸ Issue number prefixed with a hash (#), else no-ref. Lowercase. Hyphens, no spaces.
                 │
                 └─⫸ Branch Type: feature|hotfix|test.
 ```
-
 
 ## Commits
 
