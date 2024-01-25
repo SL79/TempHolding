@@ -40,7 +40,7 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
                 │          │ 
                 │          └─⫸ no-ref to replace issue-<issue id> if the the branch type is maintenance. 
                 │
-                └─⫸ Branch Type: feature|hotfix|test.
+                └─⫸ Branch Type: feature|hotfix|test|maintenance.
 ```
 
 ## Commits
