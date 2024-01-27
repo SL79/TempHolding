@@ -44,20 +44,17 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
 ```
 
 ## Commits
- Commites messages start with the category of change
-
 
 ### Commit categories
 
-| Category          |           | Description                         |
-|:------------------|:----------|:------------------------------------|
-| ```feat```        |        |                                     |
+| Category        | Type          | Description                                                                                  |
+|:----------------|:----------|:-------------------------------------------------------------------------------------------------|
+| ```feat```      | Feature   | Adding a new feature                                                                             |
+| ```fix```       | Fix       | Fixing a bug or issue                                                                            |
+| ```refractor``` | Refractor | Changes made for peformance or convenience purpose (e.g. readibility)                            |
+| ```chore```     | Chore     | All remaining tasks writing documentation, formatting, adding tests, cleaning useless code etc.) |
 
-
-
- 
-
-## Commit Message Format
+### Commit Message Format
 
 Each commit message consists of a header, a body and a footer 
 
