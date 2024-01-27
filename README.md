@@ -21,14 +21,14 @@ The project only supports two active branches: a main and a single development b
 
 The following branch types are used for this project.
 
-| Branch            | Protected | Base Branch    | Description                                                                    |
-|:------------------|:----------|:---------------|:-------------------------------------------------------------------------------|
-| ```main```        | Yes       | Not Applicable | Production version.<br> A pull request is required to merge code into the main |
-| ```feature```     | No        | main           | Used for feature development and testing                                       |
-| ```hotfix```      | No        | main           | Used to quickly patch production releases                                      |
-| ```test```        | No        | main           | Used for testing a specific project issue                                      |
-| ```maintenance``` | No        | main           | Used for undertaking maintenance tasks outside any specific project issue      |
+| Branch            | Protected | Base Branch    | Description                                                                                             |
+|:------------------|:----------|:---------------|:--------------------------------------------------------------------------------------------------------|
+| ```main```        | Yes       | Not Applicable | Production version.<br> A pull request is required to merge code into the main                          |
+| ```feature```     | No        | main           | Used for developing new features                                                                        |
+| ```bugfix```      | No        | main           | Used to fix bugs in the code                                                                            |
+| ```maintenance``` | No        | main           | Used for undertaking maintenance tasks outside any specific project issue, <br> inlcuding documentation |
 
+https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534
 
 ### Branch Naming Convention
 ```
@@ -40,11 +40,22 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
                 │          │ 
                 │          └─⫸ no-ref to replace issue-<issue id> if the branch type is maintenance. 
                 │
-                └─⫸ Branch Type: feature|hotfix|test|maintenance.
+                └─⫸ Branch Type: feature|bugfix|maintenance.
 ```
 
 ## Commits
+ Commites messages start with the category of change
 
+
+### Commit categories
+
+| Category          |           | Description                         |
+|:------------------|:----------|:------------------------------------|
+| ```feat```        |        |                                     |
+
+
+
+ 
 
 ## Commit Message Format
 
