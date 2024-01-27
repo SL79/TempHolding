@@ -52,7 +52,7 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
 | ```feat```      | Feature   | Adding a new feature                                                                             |
 | ```fix```       | Fix       | Fixing a bug or issue                                                                            |
 | ```refractor``` | Refractor | Changes made for peformance or convenience purpose (e.g. readibility)                            |
-| ```chore```     | Chore     | All remaining tasks writing documentation, formatting, adding tests, cleaning useless code etc.) |
+| ```chore```     | Chore     | All remaining tasks (writing documentation, formatting, adding tests, cleaning useless code etc.) |
 
 ### Commit Message Format
 
