@@ -56,6 +56,8 @@ The project uses conventional commits message format.
 
 ### Commit categories
 
+https://medium.com/front-end-weekly/how-to-write-good-git-commit-messages-like-a-pro-2c12f01569d9
+
 | Category        | Type          | Description                                                                                   |
 |:----------------|:----------|:--------------------------------------------------------------------------------------------------|
 | ```feat```      | Feature   | Adding a new feature                                                                              |
