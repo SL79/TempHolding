@@ -72,20 +72,22 @@ Each commit message consists of a header, an optional body and an optional foote
 #### Header
 Headers are mandatory and must conform to the Commit Message Header format: ```<type>[optional scope]: <description>```
 
-
 Commit Message Header
 ```
 <type>[optional scope]: <description>
 
   │         │                   │
-  │         │                   └─⫸ Short summary in present tense. Lowercase. No period at the end.
+  │         │                   └─⫸ Short summary in present tense (description of actual change). Lowercase. No period at the end. Max 100 characters
   │         │
-  │         └─⫸ Noun describing a section of the codebase surrounded by parenthesis, e.g., fix(parser):
+  │         └─⫸ Noun describing a section of the codebase surrounded by parenthesis (context of change)
   │
-  └─⫸ Commit Type: feat|fix|refactor|chore
+  └─⫸ Commit Type (type of change): feat|fix|refactor|chore
 ```
 
-
+Example: 
+```
+git commit -m "fix(core): remove deprecated and defunct wtf* apis"
+```
 
 
 ## Pull Requests
