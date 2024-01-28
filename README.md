@@ -44,19 +44,28 @@ git branch <category>/issue-<issue id>/<short description-in-kebab-case>
 ```
 
 ## Commits
+The project uses conventional commits message format. 
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
 
 ### Commit categories
 
-| Category        | Type          | Description                                                                                  |
-|:----------------|:----------|:-------------------------------------------------------------------------------------------------|
-| ```feat```      | Feature   | Adding a new feature                                                                             |
-| ```fix```       | Fix       | Fixing a bug or issue                                                                            |
-| ```refractor``` | Refractor | Changes made for peformance or convenience purpose (e.g. readibility)                            |
-| ```chore```     | Chore     | All remaining tasks (writing documentation, formatting, adding tests, cleaning useless code etc.) |
+| Category        | Type          | Description                                                                                   |
+|:----------------|:----------|:--------------------------------------------------------------------------------------------------|
+| ```feat```      | Feature   | Adding a new feature                                                                              |
+| ```fix```       | Fix       | Fixing a bug or issue                                                                             |
+| ```refractor``` | Refractor | Changes made for peformance or convenience purpose (e.g. readibility)                             |
+| ```chore```     | Chore     | Miscellaneous commits e.g. modifying .gitignore, documentation, style changes, adding tests, etc. |
 
 ### Commit Message Format
 
-Each commit message consists of a header, a body and a footer 
+Each commit message consists of a header, an optional body and an optional footer 
 
 Header
 Headers are mandatory and must conform to the Commit Message Header format
@@ -64,7 +73,7 @@ Headers are mandatory and must conform to the Commit Message Header format
 
 Commit Message Header
 ```
-<type>[optional scope]: <short description>
+<type>[optional scope]: <description>
 
   │         │                   │
   │         │                   └─⫸ Short summary in present tense. Lowercase. No period at the end.
