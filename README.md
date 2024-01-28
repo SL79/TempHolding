@@ -63,7 +63,7 @@ https://medium.com/front-end-weekly/how-to-write-good-git-commit-messages-like-a
 | ```feat```      | Feature   | Adding a new feature                                                                              |
 | ```fix```       | Fix       | Fixing a bug or issue                                                                             |
 | ```refractor``` | Refractor | Changes made for peformance or convenience purpose (e.g. readibility)                             |
-| ```chore```     | Chore     | Miscellaneous commits e.g. modifying .gitignore, documentation, style changes, adding tests, etc. |
+| ```chore```     | Chore     | Miscellaneous (non-production) commits e.g: <br><ul><li>modifying .gitignore</li><li>changes to documentation</li><li>style changes (formatting, missing semi colons, etc;)</li> <li>adding tests</li>|
 
 ### Commit Message Format
 
