@@ -70,7 +70,9 @@ https://medium.com/front-end-weekly/how-to-write-good-git-commit-messages-like-a
 Each commit message consists of a header, an optional body and an optional footer 
 
 #### Header
-Headers are mandatory and must conform to the Commit Message Header format: ```<type>[optional scope]: <description>```
+Headers are mandatory and must conform to the Commit Message Header format: ```<type>[optional scope]: <description>```.  
+
+The <b>type</b> value is a short prefix that represents the type of change. The optional <b>scope</b> represents the context of the change, while the <b>subject</b> repesents a concise description of the actual change.
 
 Commit Message Header
 ```
@@ -81,7 +83,7 @@ Commit Message Header
   │         │
   │         └─⫸ Noun describing a section of the codebase surrounded by parenthesis (context of change)
   │
-  └─⫸ Commit Type (type of change): feat|fix|refactor|chore
+  └─⫸ Commit Type: feat|fix|refactor|chore
 ```
 
 Example: 
@@ -89,6 +91,9 @@ Example:
 git commit -m "fix(core): remove deprecated and defunct wtf* apis"
 ```
 
+
+#### Body
+The body is optional lines that introduce the motivation behind the change or just describing slightly more detailed information.
 
 ## Pull Requests
 
