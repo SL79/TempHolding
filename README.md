@@ -69,7 +69,7 @@ https://medium.com/front-end-weekly/how-to-write-good-git-commit-messages-like-a
 
 Each commit message consists of a header, an optional body and an optional footer 
 
-Header
+#### Header
 Headers are mandatory and must conform to the Commit Message Header format
 
 
