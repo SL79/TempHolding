@@ -94,6 +94,15 @@ git commit -m "fix(core): remove deprecated and defunct wtf* apis"
 
 #### Body
 The body is optional lines that introduce the motivation behind the change or just describing slightly more detailed information.
+ - The header and body are to be separated by a blank line 
+
+```
+git commit -m "fix(core): remove deprecated and defunct wtf* 
+apis" -m "These apis have been deprecated in v8, so they should stick around till v10, but since they are defunct we are removing them early so that they don't take up payload size."
+```
+
+#### Footer
+The footer is optional lines that mention consequences which stems from the change — such as announcing a breaking change, linking closed issues, mentioning contributors and so on.
 
 ## Pull Requests
 
